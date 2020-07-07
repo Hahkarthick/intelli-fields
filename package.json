@@ -1,14 +1,24 @@
 {
   "name": "intelli-fields",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Rich form fieds with simple and complex validation",
   "main": "index.js",
+  "homepage": "https://github.com/Hahkarthick/intelli-fields",
+  "url": "https://github.com/Hahkarthick/intelli-fields",
+  "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --mode development --env  --open --hot --port",
     "build": "./node_modules/.bin/webpack --mode production"
   },
   "author": "Harish",
-  "license": "ISC",
+  "contributors": [
+    "Harish <karthick.harish95@gmail.com> (http://harishtech.com)"
+  ],
+  "keywords": [
+    "Form validation",
+    "Regex validation",
+    "Fields"
+  ],
   "dependencies": {
     "4000": "^0.4.1",
     "@babel/runtime": "^7.8.4",
