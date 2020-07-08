@@ -6,6 +6,9 @@
   "homepage": "https://github.com/Hahkarthick/intelli-fields",
   "url": "https://github.com/Hahkarthick/intelli-fields",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hahkarthick/intelli-fields/issues"
+  },
   "scripts": {
     "start": "webpack-dev-server --mode development --env  --open --hot --port",
     "build": "./node_modules/.bin/webpack --mode production"
@@ -19,16 +22,9 @@
     "Regex validation",
     "Fields"
   ],
-  "dependencies": {
-    "4000": "^0.4.1",
-    "@babel/runtime": "^7.8.4",
-    "autoprefixer": "^9.7.4",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-router": "^5.1.2",
-    "react-router-dom": "^5.1.2",
-    "style-loader": "^1.1.3",
-    "webpack-dev-server": "^3.10.3"
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -37,17 +33,6 @@
     "@babel/preset-react": "^7.8.3",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^3.4.2",
-    "file-loader": "^5.1.0",
-    "html-webpack-plugin": "^3.2.0",
-    "node-sass": "^4.13.1",
-    "postcss-loader": "^3.0.0",
-    "sass-loader": "^8.0.2",
-    "script-loader": "^0.7.2",
-    "url-loader": "^3.0.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   }
